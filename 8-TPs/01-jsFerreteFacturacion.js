@@ -14,13 +14,13 @@ function Sumar ()
 	valorDos = txtIdPrecioDos.value;
 	valorTres = txtIdPrecioTres.value;
 
-	valorUno = parseint(valorUno);
-	valorDos = parseint(valorDos);
-	valorTres = parseint(valorTres);
+	valorUno = parseInt(valorUno);
+	valorDos = parseInt(valorDos);
+	valorTres = parseInt(valorTres);
 
 	suma = valorUno + valorDos + valorTres;
 
-	alert(suma);
+	alert("La suma de los productos es : " + suma);
 	
 }
 function Promedio () 
@@ -34,9 +34,9 @@ function Promedio ()
 	valorDos = txtIdPrecioDos.value;
 	valorTres = txtIdPrecioTres.value;
 
-	valorUno = parseint(valorUno);
-	valorDos = parseint(valorDos);
-	valorTres = parseint(valorTres);
+	valorUno = parseInt(valorUno);
+	valorDos = parseInt(valorDos);
+	valorTres = parseInt(valorTres);
 
 	promedio = (valorUno + valorDos + valorTres) /3;
 
@@ -54,9 +54,9 @@ function PrecioFinal ()
 	valorDos = txtIdPrecioDos.value;
 	valorTres = txtIdPrecioTres.value;
 
-	valorUno = parseint(valorUno);
-	valorDos = parseint(valorDos);
-	valorTres = parseint(valorTres);
+	valorUno = parseInt(valorUno);
+	valorDos = parseInt(valorDos);
+	valorTres = parseInt(valorTres);
 
 	precioFinal = (valorUno + valorDos + valorTres) * 1.21;
 
