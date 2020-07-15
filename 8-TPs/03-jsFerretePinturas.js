@@ -11,7 +11,7 @@ function FahrenheitCentigrados ()
 	fahrenheit = txtIdTemperatura.value;
 	fahrenheit = parseInt(fahrenheit);
 
-	centigrados = (fahrenheit * 0.556) + 32;
+	centigrados = ((fahrenheit - 32) * 5) /9 ;
 
 	alert(fahrenheit + " fahrenheit son " + centigrados + " centigrados ");
 
@@ -27,7 +27,7 @@ function CentigradosFahrenheit ()
 	centigrados = txtIdTemperatura.value;
 	centigrados = parseInt(centigrados);
 
-	fahrenheit = (centigrados * 1.8 ) + 32;
+	fahrenheit = ((centigrados * 9 )/5) + 32;
 
 	alert(centigrados + " centigrados son " + fahrenheit + " fahrenheit ");
 	
